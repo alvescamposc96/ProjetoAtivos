@@ -56,8 +56,9 @@ namespace ProjetoAtivos
 
 
         }
+        
 
-       
+
 
 
 
@@ -67,10 +68,12 @@ namespace ProjetoAtivos
         tw.WriteLine($"Ativo: {ativoref.Nome}  \nEmissor: {emissorref.Nome} \nQuantidade: {ativoref.Quantidade} \nPrecoUnitario: {ativoref.PrecoUnitario}  \n  ");
         tw.Close();*/
 
+
+        //QUANDO NÃO TEM LISTA E QUERO APENAS SALVAR EM UM ARQUIVO
         /*StreamWriter sw = File.AppendText("c:\\arquivo.txt");
         sw.WriteLine($"Ativo: {ativoref.Nome}  \nEmissor: {ativoref.Emissor.Nome} \nQuantidade: {ativoref.Quantidade} \nPrecoUnitario: {ativoref.PrecoUnitario}  \n  ");
             sw.Close();*/
 
-        
+
     }
 }
