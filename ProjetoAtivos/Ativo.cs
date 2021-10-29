@@ -22,7 +22,7 @@ namespace ProjetoAtivos
 
         public static List<Ativo> ListaDeAtivos = new List<Ativo>();
       
-        //
+        
 
 
         public Ativo(String nome, Emissor emissor, int quantidade, decimal precoUnitario)
