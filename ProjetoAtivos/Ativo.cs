@@ -15,7 +15,7 @@ namespace ProjetoAtivos
 
         public int Quantidade { get; set; }
 
-        public double PrecoUnitario { get; set; }
+        public decimal PrecoUnitario { get; set; }
 
 
 
@@ -25,7 +25,7 @@ namespace ProjetoAtivos
 
 
 
-        public Ativo(String nome, Emissor emissor, int quantidade, double precoUnitario)
+        public Ativo(String nome, Emissor emissor, int quantidade, decimal precoUnitario)
         {
             this.Nome = nome;
             this.Emissor = emissor;
@@ -45,7 +45,7 @@ namespace ProjetoAtivos
             int quantidade = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Digite o preço unitário:");
-            double precoUnitario = Convert.ToDouble(Console.ReadLine());
+            decimal precoUnitario = Convert.ToDecimal(Console.ReadLine());
 
 
             Emissor emissorref = new Emissor(emissor);
